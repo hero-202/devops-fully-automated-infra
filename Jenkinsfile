@@ -10,7 +10,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/hero-202/devops-fully-automated-infra.gitgit status'
+                git branch: 'main', url: 'https://github.com/hero-202/devops-fully-automated-infra.git'
                 sh 'ls'
             }
         }
